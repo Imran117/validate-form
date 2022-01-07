@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form action="tabs" class="form" id="form">
+            <input autocomplete="off" class="tab" type="text" name="name" placeholder="введите имя:" required>
+            <input autocomplete="off" class="tab" type="text" name="firstname" placeholder="введите фамилию:" required>
+            <input autocomplete="off" class="tab" type="text" name="login" placeholder="введите логин:" required>
+            <div>
+                <input class="tab" type="number" name="age" min="1" max="31" placeholder="день рождение:" required>
+                <select autocomplete="off" class="tab" name="ageThow" required>
+                    <option value="1">Январь</option>
+                    <option value="2">Февраль</option>
+                    <option value="3">Март</option>
+                    <option value="4">Апрель</option>
+                    <option value="5">Май</option>
+                    <option value="6">Июнь</option>
+                    <option value="7">Июль</option>
+                    <option value="8">Август</option>
+                    <option value="9">Сентябрь</option>
+                    <option value="10">Октябрь</option>
+                    <option value="11">Ноябрь</option>
+                    <option value="12">Декабрь</option>
+                </select>
+                <input class="tab" type="number" name="year" max="2022" placeholder="год рождение:" required>
+            </div>
+            <button type="submit" class="button">отправить</button>
+        </form>
+    </div>
+    <div class="humans__tabs">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2d9ff7;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.tab {
+    padding: 6px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+.button {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.humans__tabs {
+    margin:0 auto;
+    padding: 15px;
+    max-width: 1140px;
+    width: 100%;
+    background: grey;
+}
+
+.humans__tabs>div {
+    display: flex;
+    justify-content: space-around;
+    height: 125px;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    background: white;
+}
